@@ -1,6 +1,7 @@
 package io.github.toronto22;
 
 import io.cucumber.java.BeforeAll;
+import io.github.toronto22.task.home.CloseAdsPopup;
 import net.serenitybdd.junit5.SerenityTest;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
@@ -24,7 +25,8 @@ public class WebHook {
                 BrowseTheWeb.with(driver)
         );
         when(kevin).attemptsTo(
-                Open.url(WebUrl.HOME_PAGE)
+                Open.url(WebUrl.HOME_PAGE),
+                CloseAdsPopup.perform()
         );
     }
 }

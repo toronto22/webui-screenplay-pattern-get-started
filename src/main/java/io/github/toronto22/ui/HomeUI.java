@@ -51,7 +51,7 @@ public class HomeUI {
 
     //Slider
     public static final Target POINT_SLIDER = Target.the("point slider")
-            .locatedBy("//nouislider[1]");
+            .locatedBy("//div[@class='noUi-target noUi-ltr noUi-horizontal']");
     public static final Target RANGE_SLIDER = Target.the("point slider")
             .locatedBy("//nouislider[2]");
 
