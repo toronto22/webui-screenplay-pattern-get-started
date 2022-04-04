@@ -1,5 +1,6 @@
-package io.github.toronto22;
+package io.github.toronto22.home_page_interaction;
 
+import io.github.toronto22.WebHook;
 import io.github.toronto22.question.common.input.Input;
 import io.github.toronto22.ui.HomeUI;
 import net.serenitybdd.screenplay.actions.Enter;
@@ -10,7 +11,7 @@ import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.GivenWhenThen.then;
 import static org.hamcrest.Matchers.equalTo;
 
-public class WhenInteractWithInput extends WebHook{
+public class WhenInteractWithInput extends WebHook {
 
     @Test
     public void should_be_able_to_send_keys() {

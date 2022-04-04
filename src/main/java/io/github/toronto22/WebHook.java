@@ -1,6 +1,7 @@
 package io.github.toronto22;
 
 import io.cucumber.java.BeforeAll;
+import io.github.toronto22.task.home.AccessHomePageFrom;
 import io.github.toronto22.task.home.CloseAdsPopup;
 import net.serenitybdd.junit5.SerenityTest;
 import net.serenitybdd.screenplay.Actor;
@@ -17,7 +18,7 @@ import static net.serenitybdd.screenplay.GivenWhenThen.when;
 public class WebHook {
     @Managed
     WebDriver driver;
-    Actor kevin = Actor.named("kevin");
+    protected Actor kevin = Actor.named("kevin");
 
     @BeforeEach
     public void setup(){
@@ -25,7 +26,7 @@ public class WebHook {
                 BrowseTheWeb.with(driver)
         );
         when(kevin).attemptsTo(
-                Open.url(WebUrl.HOME_PAGE),
+                AccessHomePageFrom.url(),
                 CloseAdsPopup.perform()
         );
     }

@@ -1,7 +1,7 @@
-package io.github.toronto22;
+package io.github.toronto22.home_page_interaction;
 
-import io.github.toronto22.interaction.Pagination;
-import io.github.toronto22.task.home.CloseAdsPopup;
+import io.github.toronto22.WebHook;
+import io.github.toronto22.interaction.web_element.pagination.Pagination;
 import io.github.toronto22.ui.HomeUI;
 import net.serenitybdd.screenplay.actions.Scroll;
 import org.junit.jupiter.api.Test;

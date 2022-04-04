@@ -1,6 +1,7 @@
-package io.github.toronto22;
+package io.github.toronto22.home_page_interaction;
 
-import io.github.toronto22.interaction.JsClick;
+import io.github.toronto22.WebHook;
+import io.github.toronto22.interaction.browser.action.JsClick;
 import io.github.toronto22.ui.HomeUI;
 import net.serenitybdd.screenplay.actions.Scroll;
 import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;

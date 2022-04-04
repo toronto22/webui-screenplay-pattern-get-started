@@ -151,4 +151,8 @@ public class HomeUI {
     //Carousel
     public static final Target CAROUSEL = Target.the("carousel")
             .locatedBy("//ngb-carousel");
+
+    //Other
+    public static final Target DOCUMENTATION_BUTTON = Target.the("documentation button")
+            .locatedBy("//a[text()=' Documentation']/..");
 }

@@ -1,4 +1,4 @@
-package io.github.toronto22.interaction;
+package io.github.toronto22.interaction.web_element.slider;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;

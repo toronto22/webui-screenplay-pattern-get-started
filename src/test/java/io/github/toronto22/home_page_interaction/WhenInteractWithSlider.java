@@ -1,6 +1,7 @@
-package io.github.toronto22;
+package io.github.toronto22.home_page_interaction;
 
-import io.github.toronto22.interaction.Slide;
+import io.github.toronto22.WebHook;
+import io.github.toronto22.interaction.web_element.slider.Slide;
 import io.github.toronto22.question.common.slider.RangerSlider;
 import io.github.toronto22.question.common.slider.SingleSlider;
 import io.github.toronto22.ui.HomeUI;

@@ -1,4 +1,4 @@
-package io.github.toronto22.interaction;
+package io.github.toronto22.interaction.browser.action;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Interaction;
