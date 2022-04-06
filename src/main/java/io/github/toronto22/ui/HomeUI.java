@@ -45,9 +45,9 @@ public class HomeUI {
 
     //Toggle button
     public static final Target OFF_TOGGLE_BUTTON = Target.the("off toggle button")
-            .locatedBy("//bswitch[1]");
+            .locatedBy("//bswitch[1]/div");
     public static final Target ON_TOGGLE_BUTTON = Target.the("on toggle button")
-            .locatedBy("//bswitch[2]");
+            .locatedBy("//bswitch[2]/div");
 
     //Slider
     public static final Target POINT_SLIDER = Target.the("point slider")

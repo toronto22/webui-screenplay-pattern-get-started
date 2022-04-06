@@ -12,4 +12,7 @@ public class Browser {
     public static Performable waitForPageLoad(){
         return WaitForPageLoad.perform();
     }
+    public static Performable waitForPageLoad(int timeoutInSecond){
+        return WaitForPageLoad.perform(timeoutInSecond);
+    }
 }

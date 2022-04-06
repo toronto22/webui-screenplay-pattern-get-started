@@ -1,4 +1,4 @@
-package io.github.toronto22.home_page_interaction;
+package io.github.toronto22.features.home_page_interaction;
 
 import io.github.toronto22.WebHook;
 import io.github.toronto22.question.common.progress_bar.ProgressBar;

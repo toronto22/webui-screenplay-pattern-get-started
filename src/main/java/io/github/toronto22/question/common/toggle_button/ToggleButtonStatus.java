@@ -20,7 +20,7 @@ public class ToggleButtonStatus implements Question<Boolean> {
     @SneakyThrows
     @Override
     public Boolean answeredBy(Actor actor) {
-       String classValue =  target.resolveFor(actor).findElement(By.tagName("div")).getAttribute("class");
+       String classValue =  target.resolveFor(actor).getAttribute("class");
        if(classValue.contains("bootstrap-switch-on")) return true;
        if(classValue.contains("bootstrap-switch-off")) return false;
 
