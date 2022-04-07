@@ -8,6 +8,7 @@ import net.serenitybdd.screenplay.Tasks;
 import net.serenitybdd.screenplay.actions.Click;
 import net.serenitybdd.screenplay.conditions.Check;
 import net.serenitybdd.screenplay.matchers.WebElementStateMatchers;
+import net.thucydides.core.annotations.Step;
 
 import static net.serenitybdd.screenplay.questions.WebElementQuestion.the;
 
