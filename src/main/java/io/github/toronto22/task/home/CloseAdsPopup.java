@@ -18,7 +18,7 @@ public class CloseAdsPopup implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         actor.attemptsTo(
-                Check.whether(the(HomeUI.CLOSE_ADS_BUTTON), WebElementStateMatchers.isClickable())
+                Check.whether(the(HomeUI.CLOSE_ADS_BUTTON), WebElementStateMatchers.isCurrentlyVisible())
                                 .andIfSo(
                                         Click.on(HomeUI.CLOSE_ADS_BUTTON)
                                 )
